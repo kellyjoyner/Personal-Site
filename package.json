@@ -77,7 +77,9 @@
       "eslint-config-i-am-meticulous/react"
     ],
     "rules": {
-      "max-len": [2, {"code": 200}]
+      "max-len": [2, {"code": 200}],
+      "react/no-string-refs": [0],
+      "react/prefer-stateless-function": [0]
     }
   },
   "stylelint": {
