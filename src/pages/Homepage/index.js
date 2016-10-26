@@ -8,10 +8,10 @@ const Homepage = () => {
       <div className={ styles.about }>
         <div className={ styles.content }>
           <p className={ styles.header }>
-            { " Welcome to My Site!" }
+            { " Kelly Joyner" }
           </p>
           <p className={ styles.subheader }>
-            { " Kelly Joyner | Front End Software Engineer" }
+            { "Front End Software Engineer" }
           </p>
         </div>
       </div>
