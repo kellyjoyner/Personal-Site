@@ -1,0 +1,14 @@
+.page {
+  align-self: center;
+  width: 100%;
+  max-width: 60rem;
+  margin: 1rem 0.75rem;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.heading {
+  color: black;
+}

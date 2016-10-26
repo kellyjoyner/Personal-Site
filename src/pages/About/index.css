@@ -1,0 +1,57 @@
+.wrapper {
+  display: flex;
+}
+
+.about {
+  width: 80%;
+  padding-right: 35px;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.link {
+  color: #953ce5;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: #953ce5;
+    font-weight: 400;
+  }
+}
+
+.image1 {
+  max-width: 200px;
+  float: right;
+}
+
+@media (max-width: 960px) {
+  .wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .pageTitle {
+    padding: 0 15px;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 15px;
+  }
+
+  .image1 {
+    float: left;
+  }
+}

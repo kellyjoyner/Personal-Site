@@ -1,0 +1,141 @@
+.about {
+  background: radial-gradient(ellipse at top, #e1c5fb 0%, #953ce5 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  padding: 6rem 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header {
+  font-size: 4rem;
+  line-height: 1;
+  margin: 2rem 0;
+  color: #fff;
+}
+
+.subheader {
+  color: #fff;
+  margin-top: 0;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.pageContent {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  min-height: 400px;
+}
+
+.contentSection1 {
+  flex: 1 0 0;
+
+  & p {
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #953ce5;
+  }
+}
+
+.contentSection2 {
+  flex: 1 0 0;
+
+  & p {
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #953ce5;
+  }
+}
+
+.contentSection3 {
+  flex: 1 0 0;
+
+  & p {
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #953ce5;
+  }
+}
+
+.content {
+  max-width: 60rem;
+  margin: auto;
+  padding: 1rem 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 2rem 0;
+  }
+
+  .header {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
+
+  .subheader {
+    font-size: 1.5rem;
+  }
+}
+
+/* Styles from Serverless */
+
+.homepageContent {
+  align-self: center;
+  width: 100%;
+  max-width: 60rem;
+  margin: 1rem 0.75rem;
+}
+
+.wrapper {
+  background: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+  justify-content: flex-start;
+}
+
+.top {
+  min-height: calc(100vh - $navHeight);
+  position: relative;
+}
+
+.bg {
+  min-height: calc(50vh - $navHeight);
+  margin-bottom: 50px;
+  background: #953ce5; /* Old browsers */
+  background: radial-gradient(ellipse at top, #e1c5fb 0%, #953ce5 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#e1c5fb', endColorstr='#953ce5', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+}
+
+.headline {
+  margin: 10px auto 40px;
+  height: 50px;
+  width: 100%;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 0;
+  color: #fff;
+  letter-spacing: -0.35px;
+  text-align: center;
+}
+
+.power {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  span {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
